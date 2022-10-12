@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exchange</title>
+</head>
+    <style>
+        
+    </style>
+<body>
+    <div class="navbar">
+        <h1>Exchange</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <input type="text" id="current1" list="list-one" placeholder="Döviz Kuru">
+            <datalist id="list-one"></datalist>
+        </div>
+        <div class="row">
+            <input type="text" id="current2" list="list-two" placeholder="Döviz Kuru">
+            <datalist id="list-two"></datalist>
+        </div>
+        <div class="row">
+            <input type="number" id="amount" placeholder="Miktar">
+        </div>
+
+        <button id="calculator">Hesapla</button>
+
+        <div class="row">
+           <div id="result"></div>
+        </div>
+
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
